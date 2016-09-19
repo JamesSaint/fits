@@ -1,0 +1,2 @@
+[07-Oct-2015 07:42:24 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/wwwfits/public_html/wp-content/plugins/hello.php on line 60
+[23-Oct-2015 05:25:25 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/wwwfits/public_html/wp-content/plugins/hello.php on line 60

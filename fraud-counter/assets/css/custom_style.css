@@ -1,0 +1,85 @@
+/*
+Theme Name:  FITS - Financial Innovation in Transactions &amp; Security
+Theme URI: http://www.fits.institute/
+Description: Custom website design, using HTML5, CSS3, JS, BootStrap 3.2.0.
+Version: 1.0
+Author: James Saint
+Author URI: http://jamessaint.com/
+Tags: HTML5, CSS3, JS, BootStrap 3.2.0.
+*/
+
+/*=================================
+=            Web Fonts            =
+=================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+/*-----  End of Web Fonts  ------*/
+
+
+/*======================================
+=            Browser Styles            =
+======================================*/
+
+::selection {
+    background: #AE9B80;
+    /* Safari */
+    color: #FFF;
+}
+
+::-moz-selection {
+    background: #AE9B80;
+    /* Firefox */
+    color: #FFF;
+}
+
+/*-----  End of Browser Styles  ------*/
+
+/*===================================
+=            Global Styles            =
+===================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #000;
+}
+
+/*-----  End of Global Styles  ------*/
+
+.container{
+  width:1025px;
+}
+
+.vertical-center {
+  height:100%;
+  width:100%;
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+  background-color: #000;
+}
+
+.vertical-center:before {    /* create a full-height inline block pseudo=element */
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.vertical-center > .container {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+  font: 16px/1 "Open Sans", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+}
+
+span#dollar-figure {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #AE9B80;
+}
