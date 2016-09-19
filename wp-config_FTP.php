@@ -19,10 +19,10 @@
 define('DB_NAME', 'wwwfits_wp88');
 
 /** MySQL database username */
-define('DB_USER', 'james');
+define('DB_USER', 'wwwfits_james');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '?Ey{6;r8JW-F');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
